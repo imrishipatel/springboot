@@ -13,7 +13,7 @@ import com.demo.propel.prodsupport.model.LoanApplication;
 import com.demo.propel.prodsupport.service.LoanApplicationService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3306.")
+@CrossOrigin(origins = "http://localhost:3001")
 @RequestMapping("/api/v1")
 public class LoanAppController {
 	
