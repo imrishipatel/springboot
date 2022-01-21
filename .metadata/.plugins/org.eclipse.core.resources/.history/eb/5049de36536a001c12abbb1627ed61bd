@@ -1,0 +1,9 @@
+package com.demo.propel.prodsupport.model;
+
+public class LoanApplication {
+	
+	private Long applicationId; 
+	private String firstName; 
+	private String lastName; 
+
+}

@@ -1,0 +1,14 @@
+package com.example.springboot;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+
+@Controller
+public class HelloWorldController {
+	
+	public String hello(Model model) {
+		
+		model.addAttribute("message", "Hello World");
+		return "Hello World!"; 
+	}
+}

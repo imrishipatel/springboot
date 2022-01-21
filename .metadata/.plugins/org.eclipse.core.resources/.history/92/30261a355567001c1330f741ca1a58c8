@@ -1,0 +1,5 @@
+package com.springboot.backend.exception;
+
+public class ResourceNotFoundException {
+
+}
