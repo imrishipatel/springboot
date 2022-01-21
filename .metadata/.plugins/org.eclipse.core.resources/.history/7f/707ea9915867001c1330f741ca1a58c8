@@ -1,0 +1,27 @@
+package com.springboot.backend.controller;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.springboot.backend.model.Employee;
+import com.springboot.backend.service.EmployeeService;
+
+@RestController
+public class EmployeeController {
+	
+	private EmployeeService employeeService;
+
+	public EmployeeController(EmployeeService employeeService) {
+		super();
+		this.employeeService = employeeService;
+	} 
+	
+	
+	
+	//build create Employee REST API
+	@PostMapping
+	public ResponseEntity<Employee> saveEmployee(){
+		
+	}
+	
+}
