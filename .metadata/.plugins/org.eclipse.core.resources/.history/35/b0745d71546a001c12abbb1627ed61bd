@@ -1,0 +1,7 @@
+package com.demo.propel.prodsupport.serviceImpl;
+
+import com.demo.propel.prodsupport.service.LoanApplicationService;
+
+public class LoanApplicationServiceImpl implements LoanApplicationService {
+
+}

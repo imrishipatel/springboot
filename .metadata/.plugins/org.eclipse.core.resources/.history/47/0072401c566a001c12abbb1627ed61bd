@@ -1,0 +1,19 @@
+package com.demo.propel.prodsupport.serviceImpl;
+
+import org.springframework.stereotype.Service;
+
+import com.demo.propel.prodsupport.model.LoanApplication;
+import com.demo.propel.prodsupport.repository.LoanApplicationRepository;
+import com.demo.propel.prodsupport.service.LoanApplicationService;
+
+@Service
+public class LoanApplicationServiceImpl implements LoanApplicationService {
+	
+	private LoanApplicationRepository loanApplicationRepository;
+
+	@Override
+	public LoanApplication getLoanApplicationById(long applicationId) {
+		
+	}
+
+}

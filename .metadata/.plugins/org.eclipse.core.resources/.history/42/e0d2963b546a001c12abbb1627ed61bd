@@ -1,0 +1,7 @@
+package com.demo.propel.prodsupport.service;
+
+public interface LoanApplicationService {
+	
+	LoanApplication getLoanApplicationById(long applicationId);
+
+}

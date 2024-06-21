@@ -1,0 +1,10 @@
+package com.springboot.backend.service.impl;
+
+import org.springframework.stereotype.Service;
+
+import com.springboot.backend.service.EmployeeService;
+
+@Service
+public class EmployeeServiceImpl implements EmployeeService {
+
+}

@@ -1,0 +1,23 @@
+package com.springboot.backend.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.Data;
+
+@Data
+
+//this annotation tells that employee class is an entity 
+@Entity
+
+@Table(name="employees")
+public class Employee {
+	
+	
+	@Id
+	private long id; 
+	private String lastName; 
+	private String firstName; 
+	private String email;
+	
+}
